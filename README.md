@@ -16,4 +16,4 @@ Link: https://aka.ms/ssmsfullsetup
 3. Erstelle schlussendlich die Tabelle mit dem Namen "T_Person_Antwort". Diese Tabelle besitzt die Spalten "ID_Person", "ID_Frage" und "Antwort".
 
 # 4. Befülle alle Tabellen mit den entsprechenden Daten.
-# 5. Query 
+# 5. Query Sortierung_nach_Antwort.sql
