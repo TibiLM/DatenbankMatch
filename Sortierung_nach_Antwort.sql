@@ -7,7 +7,7 @@ FROM (
 		FROM T_Person_Antwort Pa1
 			INNER JOIN T_Person_Antwort Pa2 ON Pa1.ID_Frage = Pa2.ID_Frage
 		WHERE Pa1.ID_Person = 1 AND Pa2.ID_Person <> 1
-		--ORDER BY  Pa2.ID_Person, Pa2.ID_Frage
+	
 		) t
 GROUP BY t.IDPerson1, t.IDPerson2
 ORDER BY t.IDPerson1, t.IDPerson2, Score
