@@ -17,3 +17,7 @@ Link: https://aka.ms/ssmsfullsetup
 
 # 4. Befülle alle Tabellen mit den entsprechenden Daten.
 # 5. Query Sortierung_nach_Antwort.sql
+
+Wichtige Anmerkung:
+Wenn nicht nur nach dem Match für die Person für welche "ID_Person" eins ist gesucht werden soll, so muss die Zeile WHERE Pa1.ID_Person = 1 AND Pa2.ID_Person <> 1 gedanklich als 
+WHERE Pa1.ID_Person = n AND Pa2.ID_Person <> n aufgefasst werden, wobei n die "ID_Person", für welche das match gefunden werden soll, ist.  
