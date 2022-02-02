@@ -10,4 +10,4 @@ FROM (
 	
 		) t
 GROUP BY t.IDPerson1, t.IDPerson2
-ORDER BY t.IDPerson1, t.IDPerson2, Score
+ORDER BY t.IDPerson1, Score DESC, t.IDPerson2
