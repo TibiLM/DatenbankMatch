@@ -11,7 +11,7 @@ Link: https://aka.ms/ssmsfullsetup
 # 3. Erstelle nun die entsprechenden Tabellen:
 
 (Folgendes ist nicht ausführlich, aber für Dokumentationszwecke genügend, da die Einstellungen bezüglich Datentypen wie z.B. nvarchar usw. selbsterklärend erscheinen.)
-1. Erstelle die Tabelle mit dem Namen "T_Personen". Diese Tabelle besitzt die Spalten "ID_Person" (Primärschlüssel), "Vorname", "Nachname" und "Klasse".
+1. Erstelle die Tabelle mit dem Namen "T_Personen". Diese Tabelle besitzt die Spalten "ID_Person" (Primärschlüssel), "Vorname", "Nachname", "Geschlecht" und "Klasse".
 2. Erstelle nun die Tabelle mit dem Namen "T_Fragen". Diese Tabelle besitzt die Spalten "ID_Fragen" (Primärschlüssel) und "Frage".
 3. Erstelle schlussendlich die Tabelle mit dem Namen "T_Person_Antwort". Diese Tabelle besitzt die Spalten "ID_Person", "ID_Frage" und "Antwort".
 
